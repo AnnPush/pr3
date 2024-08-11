@@ -13,7 +13,7 @@
 
 euros_count = 100
 
-# BEGIN (write your solution here)
+
 dollar_per_euros = 1.25
 yuans_per_dollar = 6.91
 
@@ -22,4 +22,4 @@ print(dollar_count)
 
 yuans_count = dollar_count * yuans_per_dollar
 print(yuans_count)
-# END
+
