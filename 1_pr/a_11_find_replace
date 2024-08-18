@@ -1,0 +1,6 @@
+S = 'Spam'
+print(S.find('pa'))
+print(S)
+
+print(S.replace('pa', 'XYZ'))
+print(S)
