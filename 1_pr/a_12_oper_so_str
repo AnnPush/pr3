@@ -1,0 +1,18 @@
+line = 'aaa,bbb,ccccc,dd'
+print(line.split(','))#разбить по разделителю список подстрок
+#['ааа', 'bbb', 'ссссс', 'dd']
+
+S = 'spam'
+print(S.upper())#преобразовать в верхний регистр
+#'SPAM'
+
+print(S.lower())#преобразовать в нижний регистр
+print(S.isalpha())#проверить все ли символы буквы
+#'spam'
+
+line = 'aaa,bbb,ccccc,dd   '
+print(line.rstrip())#удалить пробельные символы с правой стороны
+# 'ааа,bbb,ссссс,dd'
+
+print(line.rstrip().split(','))#скомбинировать две операции
+#['ааа', 'bbb', 'ссссс', 'dd']
